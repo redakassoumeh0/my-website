@@ -47,8 +47,13 @@
   }
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: transparent;
+  overflow-x: hidden;
 }
 
 /* ستايل النقاط (Pagination Bullets) */
