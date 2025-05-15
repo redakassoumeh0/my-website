@@ -1,0 +1,39 @@
+{
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "projects": "Projects",
+  "blog": "Blog",
+  "contact": "Contact",
+
+  "reda": "Reda",
+
+  "cta_title": "Hi, I'm ",
+  "cta_subtitle": "Creative Coder",
+  "cta_description": "I build digital experiences that are fast, smart, and beautiful.",
+  "see_my_work": "See My Work",
+  "contact_me": "Contact Me",
+
+  "about_title": "About Me",
+  "about_paragraph_1": "I’m Reda, a full-stack developer passionate about crafting intelligent, beautiful digital solutions.",
+  "about_paragraph_2": "I believe in creative problem solving, clean code, and continuous learning.",
+
+  "about_values_1": "🚀 Build Fast and Clear",
+  "about_values_2": "🎨 Design with Purpose and Simplicity",
+  "about_values_3": "🧠 Learn, Share, and Grow Every Day",
+
+  "timeline_2020": "Start Learning Web Development",
+  "timeline_2021": "Build First Laravel Project",
+  "timeline_2022": "Start Freelancing",
+  "timeline_2024": "Start Building My Portfolio",
+
+  "download_cv": "Download CV",
+
+  "skills_title": "My Skills",
+  "skill_typescript": "TypeScript",
+  "skill_nextjs": "Next.js",
+  "skill_mongodb": "MongoDB",
+  "skill_tailwind": "Tailwind CSS",
+  "skill_nodejs": "Node.js",
+  "skill_laravel": "Laravel"
+}
