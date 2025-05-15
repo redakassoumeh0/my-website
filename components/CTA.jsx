@@ -125,14 +125,8 @@ export default function CTA() {
 
         <div className="flex justify-center gap-4 flex-wrap">
           <Link
-            href="/projects"
+            href="#contact"
             className="px-6 py-3 bg-primary text-white rounded-2xl shadow hover:bg-primary/80 transition"
-          >
-            See My Work
-          </Link>
-          <Link
-            href="/contact"
-            className="px-6 py-3 border-2 border-primary text-primary rounded-2xl hover:bg-primary hover:text-foreground transition"
           >
             Contact Me
           </Link>

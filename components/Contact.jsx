@@ -25,7 +25,7 @@ export default function Contact() {
   ];
 
   return (
-    <section className="min-h-screen px-4 py-20 bg-background text-foreground flex flex-col items-center justify-center">
+    <section id="contact" className="min-h-screen px-4 py-20 bg-background text-foreground flex flex-col items-center justify-center">
       {/* Page Title */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}

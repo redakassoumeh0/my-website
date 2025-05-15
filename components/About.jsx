@@ -34,49 +34,64 @@ export default function About() {
           </h2>
 
           <p className="text-lg">
-            I am a passionate full-stack developer with a strong foundation in
-            web development and a keen eye for creating elegant, efficient, and
-            user-friendly applications.
+            I’m Reda Kassoumeh, a full-stack developer with over{" "}
+            <strong>3 years</strong> of professional experience in developing
+            and deploying complete web systems using JavaScript, Node.js, React,
+            and Laravel. I specialize in building clean, scalable, and efficient
+            applications tailored to real business needs.
           </p>
 
           <p className="text-md text-muted-foreground">
-            With expertise in both front-end and back-end technologies, I strive
-            to build robust and scalable solutions that make a real impact.
+            At ALABUO Steel, I led the development of a full internal management
+            system from scratch, covering suppliers, employees, banking, and
+            classification modules—using Next.js, MongoDB, Bootstrap, and
+            CapRover for deployment. Previously, I was the lead developer at
+            Speed Marketing, where I built tools like Speed Whats and Speed
+            Whats Plus for automating WhatsApp messaging using Chrome
+            extensions, PHP, and Node.js.
           </p>
 
-          {/* Personal Values */}
           <div className="space-y-2 text-muted-foreground">
-            <p>• Dedicated to writing clean, maintainable code</p>
-            <p>• Committed to continuous learning and improvement</p>
-            <p>• Focused on delivering exceptional user experiences</p>
+            <p>
+              • Strong ownership of the full development lifecycle:
+              architecture, coding, testing, deployment
+            </p>
+            <p>
+              • Focused on performance, usability, and multilingual support
+              (Arabic & English)
+            </p>
+            <p>
+              • Continuously growing through advanced tech stacks and real-world
+              challenges
+            </p>
           </div>
 
-          {/* Skills Tags */}
           <div className="flex flex-wrap gap-2">
             {[
               "HTML",
               "CSS",
               "JavaScript",
               "Node.js",
-              "Express",
-              "MongoDB",
+              "Express.js",
               "React",
               "Next.js",
-              "Tailwind",
-              "PHP",
+              "MongoDB",
               "MySQL",
               "Laravel",
+              "Tailwind",
+              "CapRover",
+              "Git",
+              "Postman",
             ].map((skill) => (
               <span
                 key={skill}
-                className="bg-accent  px-3 py-1 rounded-full text-sm font-medium"
+                className="bg-accent px-3 py-1 rounded-full text-sm font-medium"
               >
                 {skill}
               </span>
             ))}
           </div>
 
-          {/* Download CV Button */}
           <div className="pt-6">
             <a
               href="/Reda Kassoumeh CV.pdf"
@@ -92,3 +107,4 @@ export default function About() {
     </section>
   );
 }
+  
