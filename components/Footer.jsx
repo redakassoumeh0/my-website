@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa";
 import { SiMailboxdotorg, SiTelegram, SiWhatsapp } from "react-icons/si";
 
 export default function Footer() {
