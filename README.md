@@ -16,7 +16,6 @@ It features a clean, responsive design with bilingual support and smooth user ex
 - 🧑‍💻 About me section with background and values
 - 🧰 Tech stack highlights
 - 🚀 Dynamic project showcase
-- 🌐 Bilingual support (Arabic + English)
 - 📱 Responsive on all screen sizes
 - 🔗 Easy access to contact info and social links
 
@@ -27,7 +26,6 @@ It features a clean, responsive design with bilingual support and smooth user ex
 - **Framework:** Next.js 15
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS, Framer Motion
-- **Content:** Contentlayer (Markdown-based content)
 - **Hosting:** Vercel
 
 ---
@@ -44,7 +42,6 @@ It features a clean, responsive design with bilingual support and smooth user ex
 
 ```bash
 /components    # Reusable UI elements
-/content       # Contentlayer MDX content
 /pages         # Next.js routes
 /public        # Static assets
 /styles        # Global styles
