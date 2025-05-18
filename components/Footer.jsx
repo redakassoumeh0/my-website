@@ -16,6 +16,11 @@ export default function Footer() {
       label: "Telegram",
     },
     {
+      icon: <FaLinkedin className="w-5 h-5" />,
+      href: "https://www.linkedin.com/in/redakassoumeh/",
+      label: "LinkedIn",
+    },
+    {
       icon: <SiMailboxdotorg className="w-5 h-5" />,
       href: "mailto:redakassoumeh@gmail.com",
       label: "Email",

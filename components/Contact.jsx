@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import ContactForm from "@/components/ContactForm";
-import { FaWhatsapp, FaTelegram, FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp, FaTelegram, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Contact() {
@@ -18,6 +18,12 @@ export default function Contact() {
       href: "https://t.me/redakassoumeh0",
     },
     {
+      icon: FaLinkedin,
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/redakassoumeh/",
+    },
+
+    {
       icon: FaEnvelope,
       label: "Email",
       href: "mailto:redakassoumeh1@gmail.com",
@@ -25,7 +31,10 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="min-h-screen px-4 py-20 bg-background text-foreground flex flex-col items-center justify-center">
+    <section
+      id="contact"
+      className="min-h-screen px-4 py-20 bg-background text-foreground flex flex-col items-center justify-center"
+    >
       {/* Page Title */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}

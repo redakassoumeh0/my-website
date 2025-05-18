@@ -85,7 +85,7 @@ export default function About() {
             ].map((skill) => (
               <span
                 key={skill}
-                className="bg-accent px-3 py-1 rounded-full text-sm font-medium"
+                className="bg-primary px-3 py-1 rounded-full text-sm font-medium"
               >
                 {skill}
               </span>
