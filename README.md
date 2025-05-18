@@ -7,7 +7,7 @@ It features a clean, responsive design with bilingual support and smooth user ex
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./public/preview.png) <!-- يمكنك لاحقًا إضافة صورة فعلية -->
+![Portfolio Screenshot](./public/images/view-image.png)
 
 ---
 
@@ -41,9 +41,11 @@ It features a clean, responsive design with bilingual support and smooth user ex
 ---
 
 ## 📂 Folder Structure (optional)
+
 ```bash
 /components    # Reusable UI elements
 /content       # Contentlayer MDX content
 /pages         # Next.js routes
 /public        # Static assets
 /styles        # Global styles
+```
