@@ -1,11 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiMailboxdotorg, SiTelegram, SiWhatsapp } from "react-icons/si";
 
 export default function Footer() {
   const socialLinks = [
+    {
+      icon: <FaGithub className="w-5 h-5" />,
+      href: "https://github.com/redakassoumeh0",
+      label: "Github",
+    },
     {
       icon: <SiWhatsapp className="w-5 h-5" />,
       href: "https://wa.me/963992962532",

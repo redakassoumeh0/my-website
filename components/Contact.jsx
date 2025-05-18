@@ -2,11 +2,22 @@
 
 import { motion } from "framer-motion";
 import ContactForm from "@/components/ContactForm";
-import { FaWhatsapp, FaTelegram, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaTelegram,
+  FaEnvelope,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
 import Link from "next/link";
 
 export default function Contact() {
   const contactLinks = [
+    {
+      icon: FaGithub,
+      label: "Github",
+      href: "https://github.com/redakassoumeh0",
+    },
     {
       icon: FaWhatsapp,
       label: "WhatsApp",
